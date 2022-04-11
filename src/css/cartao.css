@@ -3,6 +3,7 @@
 .titulo {
     color: dodgerblue;
     margin-right: 50px;
+    margin-left: -100px;
     font-size: 100px;
     font-family: 'Dancing Script', 'Pacifico', cursive;
 }
