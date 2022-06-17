@@ -67,26 +67,34 @@ video {
     display: block;
 }
 
-.tipo-eletrico {
+.felicidade {
     background-color: #76befe;
 }
 
-.tipo-fogo {
+.tristeza {
     background-color: #ED8A8B;
 }
 
-.tipo-grama {
+.desconfianca {
     background-color: #49d0b0;
 }
 
-.tipo-agua {
+.tranquilidade {
     background-color: #76befe;
 }
 
-.tipo-trevas {
+.reflexao {
     background-color: #ba68c8;
 }
 
-.tipo-dragao {
+.nina-surpresa {
     background-color: #C29791;
+}
+
+.consciencia {
+    background-color: #49d0b0;
+}
+
+.arte {
+    background-color: #76befe;
 }
