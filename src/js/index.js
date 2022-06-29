@@ -1,7 +1,6 @@
 const listaSelecaoNina88 = document.querySelectorAll ('.item')
 const nina88Card = document.querySelectorAll ('.cartao-item')
 
-console.log (listaSelecaoNina88)
 listaSelecaoNina88.forEach (item => {
 
     item.addEventListener ('click', () => {
@@ -13,12 +12,9 @@ listaSelecaoNina88.forEach (item => {
 
         const idDoCartaoNina88ParaAbrir = 'cartao-' + idNina88Selecionado
 
-        console.log ('idDoCartaoNina88ParaAbrir', idDoCartaoNina88ParaAbrir)
         const cartaoNina88ParaAbrir = document.getElementById (idDoCartaoNina88ParaAbrir)
 
-        console.log ('cartaoNina88ParaAbrir', cartaoNina88ParaAbrir)
-        cartaoNina88ParaAbrir.classList.add ('aberto')
-        
+        cartaoNina88ParaAbrir.classList.add ('aberto')       
 
         const nina88AtivoNaListagem = document.querySelector ('.ativo')
         nina88AtivoNaListagem.classList.remove ('ativo')

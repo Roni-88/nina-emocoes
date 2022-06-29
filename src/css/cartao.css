@@ -2,14 +2,14 @@
 
 .titulo {
     color: dodgerblue;
-    margin-left: 20px;
+    margin-left: 80px;
     font-size: 100px;
     font-family: 'Dancing Script', 'Pacifico', cursive;
 }
 
 video {
-    margin-top: 150px;
-    margin-right: 100px;
+    margin-top: 140px;
+    margin-right: 80px;
 }
 
 .cartao-nina88 {
@@ -40,6 +40,7 @@ video {
 
 .cartao-nina88 img {
     max-height: 100%;
+    margin-left: 45px;
 }
 
 .cartao-nina88 .cartao-informacoes {
@@ -96,5 +97,5 @@ video {
 }
 
 .arte {
-    background-color: #76befe;
+    background-color: #992020;
 }
