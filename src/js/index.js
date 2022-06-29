@@ -1,18 +1,24 @@
-const listaSelecaoNina88 = document.querySelectorAll ('.nina88')
-const nina88Card = document.querySelectorAll ('.cartao-nina88')
+const listaSelecaoNina88 = document.querySelectorAll ('.item')
+const nina88Card = document.querySelectorAll ('.cartao-item')
 
-listaSelecaoNina88.forEach (nina88 => {
+console.log (listaSelecaoNina88)
+listaSelecaoNina88.forEach (item => {
 
-    nina88.addEventListener ('click', () => {
+    item.addEventListener ('click', () => {
 
         const cartaoNina88Aberto = document.querySelector ('.aberto')
         cartaoNina88Aberto.classList.remove ('aberto')
 
-        const idNina88Selecionado = nina88.attributes.id.value
+        const idNina88Selecionado = item.attributes.id.value
 
-        const idDoCartaoNina88ParaAbrir = 'cartao-' + idNina88Selecionado 
+        const idDoCartaoNina88ParaAbrir = 'cartao-' + idNina88Selecionado
+
+        console.log ('idDoCartaoNina88ParaAbrir', idDoCartaoNina88ParaAbrir)
         const cartaoNina88ParaAbrir = document.getElementById (idDoCartaoNina88ParaAbrir)
+
+        console.log ('cartaoNina88ParaAbrir', cartaoNina88ParaAbrir)
         cartaoNina88ParaAbrir.classList.add ('aberto')
+        
 
         const nina88AtivoNaListagem = document.querySelector ('.ativo')
         nina88AtivoNaListagem.classList.remove ('ativo')

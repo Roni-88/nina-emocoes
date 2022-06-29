@@ -2,7 +2,7 @@
     max-width: 200px;
 }
 
-.listagem .nina88 {
+.listagem .item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,19 +18,19 @@
     transition: 0.15s ease-in-out;
 }
 
-.listagem .nina88:hover {
+.listagem .item:hover {
     transform: scale(1.10);
 }
 
-.listagem .nina88 img {
+.listagem .item img {
     width: 25%;
     border-radius: 50%;
 }
 
-.listagem .nina88 span {
+.listagem .item span {
     padding-right: 20px;
 }
 
-.listagem .nina88.ativo {
+.listagem .item.ativo {
     background-color: dodgerblue;
 }
