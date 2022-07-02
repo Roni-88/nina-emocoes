@@ -20,7 +20,6 @@ video {
 
 .cartao-nina88 ul li {
     text-align: center;
-    
 }
 
 .cartao-nina88 .cartao-topo {
@@ -35,7 +34,6 @@ video {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .cartao-nina88 .cartao-imagem {
@@ -61,15 +59,17 @@ video {
 
 .cartao-nina88 .cartao-informacoes h3 {
     font-size: 20px;
-    max-width: fit-content;
-    
+    max-width: fit-content;   
     margin-bottom: 15px;
     border-bottom: 1px solid #6B727A;
 }
 
 .cartao-nina88 .cartao-informacoes .status {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 10px;
     width: 180px;
+     justify-content: center;   
 }
 
 .cartao-nina88.aberto {

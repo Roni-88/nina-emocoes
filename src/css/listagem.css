@@ -30,6 +30,7 @@
 
 .listagem .item span {
     padding-right: 20px;
+    margin-left: 15px;
 }
 
 .listagem .item.ativo {
