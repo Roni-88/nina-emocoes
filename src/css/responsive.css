@@ -75,18 +75,22 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 415px) {
+    main .titulo {
+        margin-left: 45px;    
+    }
     main .video {
-        margin: 50px ;
-        width: 300px;
+        margin: 40px ;
+        width: 250px;
+        height: 250px;
     }
 
     .cartao-nina88 {
-        max-width: 350px;
-        margin-left: 25px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .cartao-nina88 img {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 }
