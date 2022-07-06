@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
     body {
         font-size: 12px;
     }
@@ -8,8 +8,12 @@
         padding: 30px 0;
     }
 
-    .cartao-nina88 {
-        max-width: 300px;
+    .cartao-nina88 h2 {
+        font-size: 30px;
+    }
+
+    .cartao-nina88 img {
+        margin-left: 70px;
     }
 
     .cartao-nina88 .cartao-imagem {
@@ -18,14 +22,8 @@
     }
 
     .cartao-nina88 .cartao-informacoes {
-        padding: 60px 30px 30px;
-        margin-top: -50px;
-    }
-
-    .cartao-nina88 .cartao-informacoes .informacoes {
-        display: flex;
-        justify-content: space-between;
-        padding: 0;
+        padding: 50px 30px 30px;
+        margin-top: -30px;
     }
 
     .cartao-nina88 .cartao-informacoes h3 {
@@ -33,26 +31,62 @@
     }
 
     .listagem {
-        max-width: 290px;
+        max-width: 400px;
     }
 
     .listagem ul {
         display: flex;
-        gap: 8px;
+        gap: 10px;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
-    .listagem .nina88 {
-        width: 140px;
+    .listagem .item {
+        width: 160px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: 0;
         border-radius: 20px;
     }
 
-    .listagem .nina88 span {
+    .listagem .item span {
         padding-right: 5px;
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .listagem .item img {
+        width: 55px;
+        height: 55px; 
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 890px) {
+    main {
+        flex-direction: column;
+    }
+
+    main .video {
+        margin: 30px auto;
+    }
+
+    .cartao-nina88 img {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 450px) {
+    main .video {
+        margin: 50px ;
+        width: 300px;
+    }
+
+    .cartao-nina88 {
+        max-width: 350px;
+        margin-left: 25px;
+    }
+
+    .cartao-nina88 img {
+        margin-left: 50px;
     }
 }
