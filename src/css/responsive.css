@@ -74,8 +74,14 @@
         margin: 30px auto;
     }
 
+    .cartao-nina88 {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+
     .cartao-nina88 img {
-        margin-left: 70px;
+        margin-left: 45px;
     }
 }
 
@@ -84,9 +90,13 @@
         margin-left: 45px;    
     }
     main .video {
-        margin: 40px ;
-        width: 250px;
+        margin: 10px  ;
+        width: 200px;
         height: 250px;
+    }
+
+    main .principal {
+        max-width: auto;
     }
 
     .cartao-nina88 {
@@ -96,5 +106,9 @@
 
     .cartao-nina88 img {
         margin-left: 25px;
+    }
+
+    .listagem {
+        max-width: 340px;
     }
 }
