@@ -66,6 +66,10 @@
         flex-direction: column;
     }
 
+    .titulo {
+        margin-left: 20px;
+    }
+
     main .video {
         margin: 30px auto;
     }
