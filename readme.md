@@ -10,4 +10,6 @@ Encontrei algumas dificuldades nesse projeto, mas a principal foi no responsivo.
 - CSS
 - JavaScript
 
-[<img src="./ninaemocoes.gif" alt="Gif da tela inicial do projeto">](https://github.com/Roni-88)
+[<img src="./ninaemocoes.gif" alt="Gif da tela inicial do projeto">](https://roni-88.github.io/nina-emocoes)
+
+Clique na imagem para acessar o projeto!
